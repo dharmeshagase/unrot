@@ -1,0 +1,12 @@
+[project]
+name = "unrot-api"
+version = "0.1.0"
+requires-python = ">=3.11"
+description = "Offline-friendly Task 1 foundation for the Unrot API"
+dependencies = []
+
+[project.optional-dependencies]
+server = [
+  "fastapi>=0.115,<1.0",
+  "uvicorn>=0.32,<1.0"
+]

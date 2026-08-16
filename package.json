@@ -1,0 +1,13 @@
+{
+  "name": "unrot",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:web": "pnpm --filter @unrot/web dev",
+    "test:web": "pnpm --filter @unrot/web test",
+    "build:web": "pnpm --filter @unrot/web build",
+    "test:api": "powershell -ExecutionPolicy Bypass -File scripts/test-api.ps1",
+    "test": "pnpm run test:web && pnpm run test:api",
+    "build": "pnpm run build:web"
+  }
+}

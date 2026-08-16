@@ -1,0 +1,10 @@
+{
+  "name": "@unrot/web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "powershell -ExecutionPolicy Bypass -File ../../scripts/run-node.ps1 ../../scripts/dev-web.mjs",
+    "build": "powershell -ExecutionPolicy Bypass -File ../../scripts/run-node.ps1 ../../scripts/build-web.mjs",
+    "test": "powershell -ExecutionPolicy Bypass -File ../../scripts/run-node.ps1 ../../scripts/test-web.mjs"
+  }
+}
