@@ -13,3 +13,9 @@ __pycache__/
 .superpowers/
 work/
 outputs/
+
+# Locally installed agent skills and tool output
+.agents/
+.claude/
+.hallmark/
+skills-lock.json
